@@ -22,12 +22,12 @@ public class MainDiagonalSum {
 
     }
 
-    public static void sum(int array[][], int row) {
+    public static int sum(int array[][], int row) {
         int sum = 0;
         for (int a = 0; a < row; a++) {
             sum += array[a][a];
         }
-        System.out.println(sum);
+        return sum;
     }
 
 }
